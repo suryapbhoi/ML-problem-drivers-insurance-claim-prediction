@@ -2,17 +2,17 @@
 drivers-insurance-claim-prediction
 
 ## The problem
-- Porto Seguro, one of Brazil’s largest auto and homeowner insurance companies is currently facing the problem of inaccuracies in car insurance company’s claim predictions, which results in increased cost of insurance for good drivers and reduces the price for bad ones
-- The “insurance premium amount” – Ideally, safe drivers should be charged a lower insurance premium for being more responsible drivers. And unsafe drivers should be charged higher insurance premium amount for being careless or insensitive towards the traffic rules, and causing accidents on the road
++ Porto Seguro, one of Brazil’s largest auto and homeowner insurance companies is currently facing the problem of inaccuracies in car insurance company’s claim predictions, which results in increased cost of insurance for good drivers and reduces the price for bad ones
++ The “insurance premium amount” – Ideally, safe drivers should be charged a lower insurance premium for being more responsible drivers. And unsafe drivers should be charged higher insurance premium amount for being careless or insensitive towards the traffic rules, and causing accidents on the road
 
 ## The solution
-- The objective was to leverage the driver’s historical data and come up with a solution which finds out whether a driver is likely to file a insurance claim next year
-- The solution can be translated as:
--- Low risk customers (i.e., drivers who are unlikely to file a claim next year) are charged lower premium amount
--- High risk customers (i.e., drivers who are likely to file a claim next year) are charged higher premium amount
++ The objective was to leverage the driver’s historical data and come up with a solution which finds out whether a driver is likely to file a insurance claim next year
++ The solution can be translated as:
+- Low risk customers (i.e., drivers who are unlikely to file a claim next year) are charged lower premium amount
+- High risk customers (i.e., drivers who are likely to file a claim next year) are charged higher premium amount
 
 ## The challenges
-- The feature names in the dataset are “masked” instead of real feature names. Hence, our  analysis of the dataset will not be more interpretable. For e.g., we could not conclude observable analysis results like, who files more insurance claims
++ The feature names in the dataset are “masked” instead of real feature names. Hence, our  analysis of the dataset will not be more interpretable. For e.g., we could not conclude observable analysis results like, who files more insurance claims
 -- Commercial vs Personal vehicle drivers
 -- Male vs Female drivers
 -- Young vs Elder drivers
@@ -23,7 +23,7 @@ drivers-insurance-claim-prediction
 
 ## The Approach
 - This being a Machine Learning classification task, the below algorithms were used to determine the target:
---Logistic Regression
+-Logistic Regression
 --Naïve Bayes
 --Decision Trees
 --Random Forest
